@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="SISPRO-duplicados">
+    <output-path>$PROJECT_DIR$/out/artifacts/SISPRO_duplicados</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="Main" />
+        <option name="description" value="Programa para remover los actos y papeles duplicados en una base de datos SIRP" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="exe" />
+        <option name="title" value="SIRP - Remover actos y papeles duplicados" />
+        <option name="vendor" value="MANNE" />
+        <option name="version" value="1.0.2" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="SISPRO_duplicados.jar">
+        <element id="module-output" name="SISPRO-duplicados" />
+        <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/jfoenix/jfoenix/8.0.10/jfoenix-8.0.10.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/controlsfx/controlsfx/8.40.18/controlsfx-8.40.18.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$MAVEN_REPOSITORY$/de/jensd/fontawesomefx/8.9/fontawesomefx-8.9.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jasypt/jasypt/1.9.3/jasypt-1.9.3.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar" path-in-jar="/" />
+      </element>
+      <element id="directory" name="libs">
+        <element id="library" level="project" name="Maven: com.microsoft.sqlserver:mssql-jdbc:8.2.2.jre8" />
+        <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:4.0.3" />
+      </element>
+    </root>
+  </artifact>
+</component>
